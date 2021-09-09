@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "categoryId": 2,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/photo-1548611716-ad782502c9d2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 1,
+      "description": "A4  Tech",
+      "imageUrl": "https://pbs.twimg.com/media/EGAH73eXoAEHiuw.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Keyboard",
+      "price": 250,
+      "categoryId": 1,
+      "description": "Logitech",
+      "imageUrl": "https://im0-tub-tr.yandex.net/i?id=a9274f942ad1c3beaa5657b19c97aeb7&n=13&exp=1"
+    },
+    {
+      "id": 4,
+      "name": "Headphone",
+      "price": 300,
+      "categoryId": 4,
+      "description": "SoundCore",
+      "imageUrl": "https://cutewallpaper.org/21/beats-hd-wallpaper/Black-and-gray-wireless-headphones-photography-headphones-.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Phone",
+      "price": 1500,
+      "categoryId": 3,
+      "description": "Iphone",
+      "imageUrl": "https://cutewallpaper.org/21/iphone-wallpaper-black/CorteX-iPhone-X-grafiksyndikat.jpg"
+    },
+    {
+      "id": 6,
+      "name": "TV",
+      "price": 1000,
+      "categoryId": 1,
+      "description": "LG",
+      "imageUrl": "https://www.desktopbackground.org/download/1280x900/2014/12/15/871534_monitor-samsung-black-black-screen-display-wall-hd-wallpapers_2048x1152_h.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Telefon",
+      "price": "750",
+      "categoryId": "3",
+      "description": "Iphone 7 plus",
+      "imageUrl": "https://pbs.twimg.com/media/DCpVonXW0AAP8f-.jpg:large"
+    },
+    {
+      "name": "Playstation",
+      "description": "PS5 ",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/Vh6eSp4siwggK7RUys72nP.jpg",
+      "price": "550",
+      "categoryId": "1",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "İletişim"
+    },
+    {
+      "id": 4,
+      "name": "Müzik"
+    }
+  ]
+}
