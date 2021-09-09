@@ -1,0 +1,23 @@
+import {
+  ActivatedRouteSnapshot,
+  CanActivate,
+  Router,
+  RouterStateSnapshot,
+ 
+} from '@angular/router';
+import { Injectable } from '@angular/core';
+import { AccountService } from '../services/account.service';
+
+
+@Injectable()
+export class LoginGuard implements CanActivate {
+  constructor(private AccountService: AccountService, private router: Router) {}
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
+      let logged  =this.AccountService.isLoggedIn();
+      if (logged) {
+          return true;
+      } 
+      this.router.navigate(["login"]);
+      return false;
+  }
+}
